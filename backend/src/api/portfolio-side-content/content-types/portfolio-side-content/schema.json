@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_side_contents",
+  "info": {
+    "singularName": "portfolio-side-content",
+    "pluralName": "portfolio-side-contents",
+    "displayName": "PortfolioContent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

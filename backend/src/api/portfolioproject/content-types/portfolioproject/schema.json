@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolioprojects",
+  "info": {
+    "singularName": "portfolioproject",
+    "pluralName": "portfolioprojects",
+    "displayName": "Portfolioproject",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProjectTitle": {
+      "type": "string"
+    },
+    "ProjectDescription": {
+      "type": "richtext"
+    },
+    "project_thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "duk_contents",
+  "info": {
+    "singularName": "duk-content",
+    "pluralName": "duk-contents",
+    "displayName": "DukContent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "profilepic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "flipimage": {
+      "type": "boolean"
+    }
+  }
+}
