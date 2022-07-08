@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "microphones",
+  "info": {
+    "singularName": "microphone",
+    "pluralName": "microphones",
+    "displayName": "microphone",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hygglo_link": {
+      "type": "string"
+    }
+  }
+}
